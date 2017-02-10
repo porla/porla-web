@@ -1,0 +1,25 @@
+{
+  "name": "porla-web",
+  "version": "0.0.1",
+  "author": "Viktor Elofsson <viktor@viktorelofsson.se>",
+  "keywords": [
+    "porla-script",
+    "porla-web"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "express": "^4.14.1",
+    "express-session": "^1.15.0",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "pug": "^2.0.0-beta11"
+  },
+  "devDependencies": {
+    "porla": "0.x"
+  },
+  "peerDependencies": {
+    "porla": "0.x"
+  },
+  "main": "./src/index"
+}
